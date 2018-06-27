@@ -1,0 +1,181 @@
+/* ------WEBSITE COLOUR SCHEME--------- */
+
+/*
+Main Colours:
+
+Primary colour - rgb(183, 154, 246); //purple for navigation links
+Secondary colour - rgb(53, 38, 80); //darker purple
+Third colour - rgb(200, 177, 250); //lighter purple
+*/
+
+/*----------------MOBILE STYLES---------------------*/
+
+
+
+/*  All images and videos will be 100% of their parent  */
+
+img, video{
+	width: 100%;
+}
+
+/* -----------------GLOBAL STYLES -----------------*/
+
+/* Apply a natrual box model layout to all elements */
+
+* {
+
+	box-sizing: border-box;
+
+}
+
+
+body {
+	font-family: serif, sans-serif;
+	font-size: 16px;
+	color: rgb(20, 20, 20);
+	margin: 0;
+	padding: 0;
+}
+
+/* -------------------HOME PAGE STYLE---------------- */
+
+#homeBgImage {
+	position: relative;
+	background-image: url(../img/trainerHomePage.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.logoC{
+	position: absolute;
+	width: 45px;
+	top: 5px;
+	left: 15px;
+	z-index: 110;
+	position: fixed;
+}
+
+#cartIcon{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 10px;
+	z-index: 110;
+position: fixed;
+
+}
+
+
+/* ------------- NAVIGATION SECTION -------------  */
+
+#navC{
+
+	color: rgb(255, 255, 255);
+	width: 100%;
+	height: auto;
+	background-color: rgb(53, 38, 80);
+	position: fixed;
+	z-index: 100;
+	border-bottom: 2px solid rgb(183, 154, 246);
+}
+
+/* This is for our cartIcon*/
+
+.fa-shopping-basket{
+	font-size: 2em;
+	color: rgb(200, 177, 250);
+}
+
+/*This is styling for our 3 line symbol*/
+.navBtn{
+	font-size: 2.5em;
+	display: block; /* Review in future	*/
+	margin: 0 0 0 85vw;
+
+
+}
+
+nav li a, nav li {
+
+	width: 100%;
+	height: auto;
+	display: block;
+	outline-style: none;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+.menuItems a{
+
+	padding: 15px 5vw 15px 0;
+	color: rgb(255, 255, 255);
+	text-align: right;
+}
+
+.menuItems{
+	display: none;
+}
+
+
+
+/*-----------------------------------------------------*/
+
+   /*----------MAIN PAGE TEXT AND BUTTON--------- */
+
+.sloganC{
+
+ position: absolute;
+ top: 25vh;
+ left: 65vw;
+  color: rgb(255, 255, 255);
+/*margin: 50vh 0 0 0;*/
+
+}
+
+/* REPEATED CODE */
+.headingC, .buttonC{
+
+	width: 100%;
+	position: absolute;
+}
+
+.buttonC{
+	top: 90vh;
+
+
+}
+.headingC{
+	font-family: 'Lovers Quarrel', cursive, sans-serif;
+/*	display: block;*/
+	text-align: center;
+	color: rgb(255, 255, 255);
+/*	margin: 65vh auto 10px auto;*/
+
+	top: 80vh;
+	font-size: 2em;
+	letter-spacing: 2px;
+
+}
+
+.newArrivalButton{
+	 color: rgb(255, 255, 255);
+	 padding: 10px 15px;
+	 border-radius: 5px 5px;
+	 background-color: rgba(200, 177, 250, 0.2);
+	 border: 1px solid rgba(200, 177, 250);
+	 cursor: pointer;
+
+	 display: block;
+	 margin: 0 auto;
+
+
+
+}
+
+
+

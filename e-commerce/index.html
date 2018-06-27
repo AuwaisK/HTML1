@@ -7,8 +7,21 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- NORMALIZE.CSS RESETS ALL BROWSER VALUES -->
+
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+
+	<!-- FONT AWESOME CDN -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!--  Embedded FONTS [GOOGLE]	-->
+
+	<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+
 
 	<!-- THIS IS OUR MAIN CSS -->
+
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css"   />
 
 </head>
@@ -20,13 +33,22 @@
 
 		 <header>
 
-			 <div class="logo">
+			 <div class="logoC">
 				<a href="#home"><img src="resources/img/logo.png" alt="The companies Logo"/></a>
 			 </div>
-			<!-- navigation section -->
-			<nav>
 
-				<ul>
+
+			<div id="cartIcon">
+		<a href="blank"><i class="fas fa-shopping-basket"></i> </a>
+			</div>
+
+			<!-- navigation section -->
+	  <div id="navC">
+		 <span class="navBtn">&#8801;</span>
+
+			 <nav>
+
+				<ul class="menuItems">
 
 					<li><a href="#home">Home</a></li>
 				<li><a href="#products">Products</a></li>
@@ -39,14 +61,17 @@
 				</ul>
 
 			</nav>
+
+		</div>
 	<!-- navigation section -->
 		</header>
 
-	 <div> Exclusive<br> Trainers </div>
-	 <div> Limited Edition </div>
+	 <div class="sloganC"> Exclusive<br> Trainers </div>
+	 <div class="headingC"> Limited Edition </div>
 
-	 <button>New Arrivals</button>
-
+		<div class="buttonC">
+	 <button class="newArrivalButton">New Arrivals</button>
+		</div>
 
 
 	</section>
