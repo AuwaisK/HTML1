@@ -1,108 +1,147 @@
 <!DOCtype HTML>
 <!-- Tells the browser that this is an HTML file -->
 
-<html> <!-- initialise HTML elements -->
+<html>
+<!-- initialise HTML elements -->
 
-	<head>
-<!-- links are going to be included in the head section won't be seen in the browser -->
+<head>
+	<!-- links are going to be included in the head section won't be seen in the browser -->
 
 	<title> Our First WebPage </title>
 
 	<meta charset="utf-8" /> <!-- allows character codes to be added for the different symbols (&@!?)	-->
-	<meta http-equiv="content-type" content="text/html"/> <!-- specifies the content as being HTML -->
+	<meta http-equiv="content-type" content="text/html" /> <!-- specifies the content as being HTML -->
 
-	<meta name="viewport"  content="width=device-width, initial-scale-1" /> <!-- stops the broswer from lying about the screen size -->
+	<meta name="viewport" content="width=device-width, initial-scale-1" />
+	<!-- stops the broswer from lying about the screen size -->
 
-	</head>
+	<link rel="stylesheet" href="index.css">
 
-	<body>
+</head>
+
+<body>
 
 	<header>
-		  <!-- h classes go from 1-6 -->
-		<h1> Facts about Computers </h1>
+		<!-- h classes go from 1-6 -->
 
-		<h2> First Website </h2>
+		<div class="heading">
+
+			<h1>Facts about Computers</h1>
+
+		</div>
+
 	</header>
 
-		<p>Related tasks include testing, debugging, maintaining a program's source code, implementation of build systems, and management of derived artifacts such as machine code of computer programs. These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation, or coding reserved for the actual writing of source code. Software engineering combines engineering techniques with software development practices.</p>
+	<div class="content">
 
-	<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg" />
+		<h3>
+			Related tasks include testing, debugging, maintaining a program's source code, implementation of build
+			systems, and management of derived artifacts such as machine code of computer programs. These might be
+			considered part of the programming process, but often the term software development is used for this larger
+			process with the term programming, implementation, or coding reserved for the actual writing of source code.
+			Software engineering combines engineering techniques with software development practices.
+		</h3>
 
-	<img src="resources/img/computer.jpg" style="width: 100px; height: 100px; " /> <!-- adding images through our file structure -->
+	</div>
 
-		<h3> Planets </h3>
+	<div class="image1">
 
-		<p> Planets are generally divided into two main types: large low-density giant planets, and smaller rocky terrestrials. Under IAU definitions, there are eight planets in the Solar System.<br>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/IBM402plugboard.Shrigley.wireside.jpg" />
 
-		<br>In order of increasing distance from the Sun, they are the four terrestrials, Mercury, Venus, Earth, and Mars, then the four giant planets, Jupiter, Saturn, Uranus, and Neptune. Six of the planets are orbited by one or more natural satellites.  </p>
+	</div>
 
-		<hr>
+	<div class="planets">
 
-		<nav>
+		<h2> Planets </h2>
 
-			<ul>
+	</div>
 
-				<li><a href="http://nineplanets.org/" target="_blank"> Pluto</a></li>
-				<li> Mars  </li>
-				<li> Jupiter </li>
+	<div class="content">
 
-			</ul>
+		<p> Planets are generally divided into two main types: large low-density giant planets, and smaller rocky
+			terrestrials. Under IAU definitions, there are eight planets in the Solar System.
+			In order of increasing distance from the Sun, they are the four terrestrials, Mercury, Venus, Earth, and
+			Mars, then the four giant planets, Jupiter, Saturn, Uranus, and Neptune. Six of the planets are orbited by
+			one or more natural satellites. </p>
+	</div>
 
-		</nav>
 
-		<hr>
+	<ul class="navs">
 
-		<h3> Top planet facts </h3>
+		<li><button class="btn"><a href="http://nineplanets.org/" target="_blank"> Pluto</a></button></li>
 
+		<li><button class="btn"> Mars </button></li>
+
+		<li><button class="btn"> Jupiter</button></li>
+	</ul>
+
+
+
+	<div class="content">
+		<div style="padding: 5px 0px 10px 10px;">
+
+			<h3> Top planet facts </h3>
+	
+		</div>
+	
 		<ol>
-
 			<li> Mercury. The sun-scorched innermost planet is an intriguing world of extremes. </li>
-
+	
 			<li>
 				Venus. Venus is the second planet from the sun and our closest planetary neighbor.
 			</li>
 			<li>
 				Earth. Earth is the third planet from the sun and the fifth largest in the solar system.
 			</li>
-
 		</ol>
+	
 
-		<table>
+	
+
+
+	</div>
+
+		<table id="table">
 
 			<tr>
 				<th>Solar system</th>
 				<th>Galaxies</th>
 				<th>Stars </th>
 			</tr>
-
+	
 			<tr>
 				<td>Home system</td>
 				<td>Milky Way</td>
 				<td>Sun</td>
 			</tr>
-
+	
 			<tr>
 				<td>Away System</td>
 				<td>Andromeda</td>
 				<td>Another Sun</td>
 			</tr>
-
+	
 		</table>
 
-		<form action="https://www.justit.co.uk/">
-
-			<input type="submit" value="enter"    />
-
-		</form>
-
-		<hr>
-
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/mQrlgH97v94?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-	</body>
+	<form style="margin: 10px;" action="https://www.justit.co.uk/">
+
+		<input class="btn" type="submit" value="enter" />
+
+	</form>
+
+	<hr>
+
+	<div class="ifram">
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mQrlgH97v94?rel=0" frameborder="0"
+			allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+	</div>
+
+</body>
 
 
 
 </html>
-
